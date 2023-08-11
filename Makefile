@@ -1,3 +1,5 @@
+CMAKE = /opt/homebrew/bin/cmake
+
 PROJECT_DIR ?= $(PWD)
 TOP = $(PROJECT_DIR)
 BUILT_PRODUCTS_DIR ?= $(PROJECT_DIR)/libfluidsynth
@@ -11,9 +13,9 @@ $(BUILT_PRODUCTS_DIR)/FluidSynth.framework: $(TOP)/libfluidsynth/Library/Framewo
 $(TOP)/libfluidsynth/Library/Frameworks/FluidSynth.framework: $(TOP)/fluidsynth
 	mkdir -p $(TOP)/libfluidsynth
 	cd $(TOP)/libfluidsynth && \
-		cmake -G Xcode -Denable-sdl2=NO -Denable-readline=NO -Denable-dbus=NO -DCMAKE_INSTALL_PREFIX=./ ../fluidsynth && \
+		$(CMAKE) -G Xcode -Denable-sdl2=NO -Denable-readline=NO -Denable-dbus=NO -DCMAKE_INSTALL_PREFIX=./ ../fluidsynth && \
 		xcodebuild -configuration Release -arch arm64 && \
-		cmake --install .
+		$(CMAKE) --install .
 
 # Download the FluidSynth repo
 $(TOP)/fluidsynth:

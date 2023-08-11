@@ -25,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BD86E3EC2A86EC6C00C64D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6F149298D8DCF00376A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD86E3E82A86EC3800C64D8F;
+			remoteInfo = FluidSynth.framework;
+		};
 		BDF6F15E298D8DCF00376A4A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BDF6F149298D8DCF00376A4A /* Project object */;
@@ -162,6 +169,22 @@
 		};
 /* End PBXHeadersBuildPhase section */
 
+/* Begin PBXLegacyTarget section */
+		BD86E3E82A86EC3800C64D8F /* FluidSynth.framework */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BD86E3E92A86EC3800C64D8F /* Build configuration list for PBXLegacyTarget "FluidSynth.framework" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = FluidSynth.framework;
+			passBuildSettingsInEnvironment = 1;
+			productName = FluidSynth.framework;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		BDF6F151298D8DCF00376A4A /* FluidSynthAUv3 */ = {
 			isa = PBXNativeTarget;
@@ -176,6 +199,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BD86E3ED2A86EC6C00C64D8F /* PBXTargetDependency */,
 			);
 			name = FluidSynthAUv3;
 			productName = FluidSynthAUv3;
@@ -210,6 +234,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					BD86E3E82A86EC3800C64D8F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					BDF6F151298D8DCF00376A4A = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -233,6 +260,7 @@
 			targets = (
 				BDF6F151298D8DCF00376A4A /* FluidSynthAUv3 */,
 				BDF6F15B298D8DCF00376A4A /* FluidSynthAUv3Tests */,
+				BD86E3E82A86EC3800C64D8F /* FluidSynth.framework */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +309,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BD86E3ED2A86EC6C00C64D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD86E3E82A86EC3800C64D8F /* FluidSynth.framework */;
+			targetProxy = BD86E3EC2A86EC6C00C64D8F /* PBXContainerItemProxy */;
+		};
 		BDF6F15F298D8DCF00376A4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BDF6F151298D8DCF00376A4A /* FluidSynthAUv3 */;
@@ -289,6 +322,33 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		BD86E3EA2A86EC3800C64D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UP6SS5ES7E;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD86E3EB2A86EC3800C64D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UP6SS5ES7E;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BDF6F164298D8DCF00376A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,6 +613,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD86E3E92A86EC3800C64D8F /* Build configuration list for PBXLegacyTarget "FluidSynth.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD86E3EA2A86EC3800C64D8F /* Debug */,
+				BD86E3EB2A86EC3800C64D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BDF6F14C298D8DCF00376A4A /* Build configuration list for PBXProject "FluidSynthAUv3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
