@@ -9,11 +9,11 @@
 
 # Building
 
-Open the [FluidSynthAUv3.xcodproj](tree/main/FluidSynthAUv3.xcodeproj) file in Xcode and build.
+Open the [FluidSynthAUv3.xcodproj](blob/main/FluidSynthAUv3.xcodeproj) file in Xcode and build.
 
 ## FluidSynth Build Integration
 
-There is a [Makefile](tree/main/Makefile) that attempts to build the FluidSynth framework for use on macOS. It is run by
+There is a [Makefile](blob/main/Makefile) that attempts to build the FluidSynth framework for use on macOS. It is run by
 Xcode when it builds the `FluidSynth.framework` target so as to satisfy the framework dependency prior to linking the
 AUv3 component. This script performs the following:
 
