@@ -1,4 +1,4 @@
-// Copyright © 2022 Brad Howes. All rights reserved.
+// Copyright © 2023 Brad Howes. All rights reserved.
 
 #import <CoreAudioKit/CoreAudioKit.h>
 #import <os/log.h>
@@ -94,7 +94,7 @@ NSComparator presetInfoComparison = ^NSComparisonResult(PresetInfo*  _Nonnull ob
 
   fluid_sfont_t* font = fluid_synth_get_sfont(synth_, 0);
   if (font == nullptr) return false;
-  
+
   fluid_sfont_iteration_start(font);
   NSMutableArray<PresetInfo*>* presets = [[NSMutableArray<PresetInfo*> alloc] initWithCapacity:256];
   while (fluid_preset_t* preset = fluid_sfont_iteration_next(font)) {

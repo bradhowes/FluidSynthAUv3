@@ -1,14 +1,9 @@
-//
-//  FluidSynthAUTests.swift
-//  FluidSynthAUTests
-//
-//  Created by Brad Howes on 03/02/2023.
-//
+// Copyright © 2023 Brad Howes. All rights reserved.
 
 import XCTest
-@testable import FluidSynthAU
+@testable import FluidSynthAUv3
 
-class FluidSynthAUTests: XCTestCase {
+class FluidSynthAUv3Tests: XCTestCase {
 
   override func setUpWithError() throws {
     // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -14,12 +14,13 @@
 		BD1F8D802A867C380085A939 /* GeneralUser GS MuseScore v1.442.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = BD1F8D7B2A867C380085A939 /* GeneralUser GS MuseScore v1.442.sf2 */; };
 		BD1F8D812A867C380085A939 /* RolandNicePiano.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = BD1F8D7C2A867C380085A939 /* RolandNicePiano.sf2 */; };
 		BD1F8D832A867C7D0085A939 /* TestResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1F8D822A867C7D0085A939 /* TestResources.swift */; };
-		BD1F93682A86C9720085A939 /* FluidSynth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F93672A86C9720085A939 /* FluidSynth.framework */; };
-		BD1F93692A86C9720085A939 /* FluidSynth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F93672A86C9720085A939 /* FluidSynth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BDF6F157298D8DCF00376A4A /* FluidSynthAU.docc in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F156298D8DCF00376A4A /* FluidSynthAU.docc */; };
-		BDF6F15D298D8DCF00376A4A /* FluidSynthAU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF6F152298D8DCF00376A4A /* FluidSynthAU.framework */; };
-		BDF6F162298D8DCF00376A4A /* FluidSynthAUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F161298D8DCF00376A4A /* FluidSynthAUTests.swift */; };
-		BDF6F163298D8DCF00376A4A /* FluidSynthAU.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF6F155298D8DCF00376A4A /* FluidSynthAU.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD86E3D32A86D87600C64D8F /* FluidSynth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F93672A86C9720085A939 /* FluidSynth.framework */; };
+		BD86E3D42A86DCC500C64D8F /* FluidSynth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F93672A86C9720085A939 /* FluidSynth.framework */; };
+		BD86E3D52A86DCC500C64D8F /* FluidSynth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F93672A86C9720085A939 /* FluidSynth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BDF6F157298D8DCF00376A4A /* FluidSynthAUv3.docc in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F156298D8DCF00376A4A /* FluidSynthAUv3.docc */; };
+		BDF6F15D298D8DCF00376A4A /* FluidSynthAUv3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF6F152298D8DCF00376A4A /* FluidSynthAUv3.framework */; };
+		BDF6F162298D8DCF00376A4A /* FluidSynthAUv3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F161298D8DCF00376A4A /* FluidSynthAUv3Tests.swift */; };
+		BDF6F163298D8DCF00376A4A /* FluidSynthAUv3.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF6F155298D8DCF00376A4A /* FluidSynthAUv3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDF6F176298D9CAE00376A4A /* FluidSynthBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F175298D9CAE00376A4A /* FluidSynthBridge.mm */; };
 /* End PBXBuildFile section */
 
@@ -29,18 +30,18 @@
 			containerPortal = BDF6F149298D8DCF00376A4A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BDF6F151298D8DCF00376A4A;
-			remoteInfo = FluidSynthAU;
+			remoteInfo = FluidSynthAUv3;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BD1F936A2A86C9720085A939 /* Embed Frameworks */ = {
+		BD86E3D62A86DCC500C64D8F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BD1F93692A86C9720085A939 /* FluidSynth.framework in Embed Frameworks */,
+				BD86E3D52A86DCC500C64D8F /* FluidSynth.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,11 +57,11 @@
 		BD1F8D7C2A867C380085A939 /* RolandNicePiano.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RolandNicePiano.sf2; sourceTree = "<group>"; };
 		BD1F8D822A867C7D0085A939 /* TestResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResources.swift; sourceTree = "<group>"; };
 		BD1F93672A86C9720085A939 /* FluidSynth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FluidSynth.framework; path = libfluidsynth/Library/Frameworks/FluidSynth.framework; sourceTree = "<group>"; };
-		BDF6F152298D8DCF00376A4A /* FluidSynthAU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluidSynthAU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF6F155298D8DCF00376A4A /* FluidSynthAU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluidSynthAU.h; sourceTree = "<group>"; };
-		BDF6F156298D8DCF00376A4A /* FluidSynthAU.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FluidSynthAU.docc; sourceTree = "<group>"; };
-		BDF6F15C298D8DCF00376A4A /* FluidSynthAUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidSynthAUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF6F161298D8DCF00376A4A /* FluidSynthAUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidSynthAUTests.swift; sourceTree = "<group>"; };
+		BDF6F152298D8DCF00376A4A /* FluidSynthAUv3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluidSynthAUv3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6F155298D8DCF00376A4A /* FluidSynthAUv3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluidSynthAUv3.h; sourceTree = "<group>"; };
+		BDF6F156298D8DCF00376A4A /* FluidSynthAUv3.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FluidSynthAUv3.docc; sourceTree = "<group>"; };
+		BDF6F15C298D8DCF00376A4A /* FluidSynthAUv3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidSynthAUv3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6F161298D8DCF00376A4A /* FluidSynthAUv3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidSynthAUv3Tests.swift; sourceTree = "<group>"; };
 		BDF6F175298D9CAE00376A4A /* FluidSynthBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FluidSynthBridge.mm; sourceTree = "<group>"; };
 		BDF6F177298D9CFC00376A4A /* FluidSynthBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluidSynthBridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1F93682A86C9720085A939 /* FluidSynth.framework in Frameworks */,
+				BD86E3D42A86DCC500C64D8F /* FluidSynth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF6F15D298D8DCF00376A4A /* FluidSynthAU.framework in Frameworks */,
+				BDF6F15D298D8DCF00376A4A /* FluidSynthAUv3.framework in Frameworks */,
+				BD86E3D32A86D87600C64D8F /* FluidSynth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +102,8 @@
 		BDF6F148298D8DCF00376A4A = {
 			isa = PBXGroup;
 			children = (
-				BDF6F154298D8DCF00376A4A /* FluidSynthAU */,
-				BDF6F160298D8DCF00376A4A /* FluidSynthAUTests */,
+				BDF6F154298D8DCF00376A4A /* FluidSynthAUv3 */,
+				BDF6F160298D8DCF00376A4A /* FluidSynthAUv3Tests */,
 				BDF6F153298D8DCF00376A4A /* Products */,
 				BDF6F16C298D8E2600376A4A /* Frameworks */,
 			);
@@ -110,31 +112,31 @@
 		BDF6F153298D8DCF00376A4A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BDF6F152298D8DCF00376A4A /* FluidSynthAU.framework */,
-				BDF6F15C298D8DCF00376A4A /* FluidSynthAUTests.xctest */,
+				BDF6F152298D8DCF00376A4A /* FluidSynthAUv3.framework */,
+				BDF6F15C298D8DCF00376A4A /* FluidSynthAUv3Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BDF6F154298D8DCF00376A4A /* FluidSynthAU */ = {
+		BDF6F154298D8DCF00376A4A /* FluidSynthAUv3 */ = {
 			isa = PBXGroup;
 			children = (
-				BDF6F155298D8DCF00376A4A /* FluidSynthAU.h */,
+				BDF6F155298D8DCF00376A4A /* FluidSynthAUv3.h */,
 				BDF6F175298D9CAE00376A4A /* FluidSynthBridge.mm */,
 				BDF6F177298D9CFC00376A4A /* FluidSynthBridge.h */,
-				BDF6F156298D8DCF00376A4A /* FluidSynthAU.docc */,
+				BDF6F156298D8DCF00376A4A /* FluidSynthAUv3.docc */,
 			);
-			path = FluidSynthAU;
+			path = FluidSynthAUv3;
 			sourceTree = "<group>";
 		};
-		BDF6F160298D8DCF00376A4A /* FluidSynthAUTests */ = {
+		BDF6F160298D8DCF00376A4A /* FluidSynthAUv3Tests */ = {
 			isa = PBXGroup;
 			children = (
-				BDF6F161298D8DCF00376A4A /* FluidSynthAUTests.swift */,
+				BDF6F161298D8DCF00376A4A /* FluidSynthAUv3Tests.swift */,
 				BD1F8D822A867C7D0085A939 /* TestResources.swift */,
 				BD1F8D772A867C380085A939 /* Resources */,
 			);
-			path = FluidSynthAUTests;
+			path = FluidSynthAUv3Tests;
 			sourceTree = "<group>";
 		};
 		BDF6F16C298D8E2600376A4A /* Frameworks */ = {
@@ -153,7 +155,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF6F163298D8DCF00376A4A /* FluidSynthAU.h in Headers */,
+				BDF6F163298D8DCF00376A4A /* FluidSynthAUv3.h in Headers */,
 				BD1F8D762A867A270085A939 /* FluidSynthBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,29 +163,28 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BDF6F151298D8DCF00376A4A /* FluidSynthAU */ = {
+		BDF6F151298D8DCF00376A4A /* FluidSynthAUv3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDF6F166298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAU" */;
+			buildConfigurationList = BDF6F166298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAUv3" */;
 			buildPhases = (
-				BD56DB292A86D174006770F5 /* Run make */,
 				BDF6F14D298D8DCF00376A4A /* Headers */,
 				BDF6F14E298D8DCF00376A4A /* Sources */,
 				BDF6F14F298D8DCF00376A4A /* Frameworks */,
 				BDF6F150298D8DCF00376A4A /* Resources */,
-				BD1F936A2A86C9720085A939 /* Embed Frameworks */,
+				BD86E3D62A86DCC500C64D8F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FluidSynthAU;
-			productName = FluidSynthAU;
-			productReference = BDF6F152298D8DCF00376A4A /* FluidSynthAU.framework */;
+			name = FluidSynthAUv3;
+			productName = FluidSynthAUv3;
+			productReference = BDF6F152298D8DCF00376A4A /* FluidSynthAUv3.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BDF6F15B298D8DCF00376A4A /* FluidSynthAUTests */ = {
+		BDF6F15B298D8DCF00376A4A /* FluidSynthAUv3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDF6F169298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAUTests" */;
+			buildConfigurationList = BDF6F169298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAUv3Tests" */;
 			buildPhases = (
 				BDF6F158298D8DCF00376A4A /* Sources */,
 				BDF6F159298D8DCF00376A4A /* Frameworks */,
@@ -194,9 +195,9 @@
 			dependencies = (
 				BDF6F15F298D8DCF00376A4A /* PBXTargetDependency */,
 			);
-			name = FluidSynthAUTests;
-			productName = FluidSynthAUTests;
-			productReference = BDF6F15C298D8DCF00376A4A /* FluidSynthAUTests.xctest */;
+			name = FluidSynthAUv3Tests;
+			productName = FluidSynthAUv3Tests;
+			productReference = BDF6F15C298D8DCF00376A4A /* FluidSynthAUv3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDF6F14C298D8DCF00376A4A /* Build configuration list for PBXProject "FluidSynthAU" */;
+			buildConfigurationList = BDF6F14C298D8DCF00376A4A /* Build configuration list for PBXProject "FluidSynthAUv3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -230,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BDF6F151298D8DCF00376A4A /* FluidSynthAU */,
-				BDF6F15B298D8DCF00376A4A /* FluidSynthAUTests */,
+				BDF6F151298D8DCF00376A4A /* FluidSynthAUv3 */,
+				BDF6F15B298D8DCF00376A4A /* FluidSynthAUv3Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,34 +259,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BD56DB292A86D174006770F5 /* Run make */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run make";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nmake\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		BDF6F14E298D8DCF00376A4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BDF6F176298D9CAE00376A4A /* FluidSynthBridge.mm in Sources */,
-				BDF6F157298D8DCF00376A4A /* FluidSynthAU.docc in Sources */,
+				BDF6F157298D8DCF00376A4A /* FluidSynthAUv3.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF6F162298D8DCF00376A4A /* FluidSynthAUTests.swift in Sources */,
+				BDF6F162298D8DCF00376A4A /* FluidSynthAUv3Tests.swift in Sources */,
 				BD1F8D832A867C7D0085A939 /* TestResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +283,7 @@
 /* Begin PBXTargetDependency section */
 		BDF6F15F298D8DCF00376A4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BDF6F151298D8DCF00376A4A /* FluidSynthAU */;
+			target = BDF6F151298D8DCF00376A4A /* FluidSynthAUv3 */;
 			targetProxy = BDF6F15E298D8DCF00376A4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,7 +425,6 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/libfluidsynth/src/Debug",
 					"$(PROJECT_DIR)/libfluidsynth/Library/Frameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,9 +443,9 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAU;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAUv3;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
@@ -491,7 +470,6 @@
 				ENABLE_MODULE_VERIFIER = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/libfluidsynth/src/Release",
 					"$(PROJECT_DIR)/libfluidsynth/Library/Frameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
@@ -510,9 +488,9 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAU;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAUv3;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
@@ -531,16 +509,16 @@
 				DEVELOPMENT_TEAM = UP6SS5ES7E;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/libfluidsynth/src",
+					"$(PROJECT_DIR)/libfluidsynth/Library/Frameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAUTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAUv3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,16 +534,16 @@
 				DEVELOPMENT_TEAM = UP6SS5ES7E;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/libfluidsynth/src",
+					"$(PROJECT_DIR)/libfluidsynth/Library/Frameworks",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAUTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.braysoftware.FluidSynthAUv3Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDF6F14C298D8DCF00376A4A /* Build configuration list for PBXProject "FluidSynthAU" */ = {
+		BDF6F14C298D8DCF00376A4A /* Build configuration list for PBXProject "FluidSynthAUv3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDF6F164298D8DCF00376A4A /* Debug */,
@@ -584,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDF6F166298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAU" */ = {
+		BDF6F166298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAUv3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDF6F167298D8DCF00376A4A /* Debug */,
@@ -593,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDF6F169298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAUTests" */ = {
+		BDF6F169298D8DCF00376A4A /* Build configuration list for PBXNativeTarget "FluidSynthAUv3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDF6F16A298D8DCF00376A4A /* Debug */,
